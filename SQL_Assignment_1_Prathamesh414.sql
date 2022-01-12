@@ -291,7 +291,7 @@ insert into suppliers (supplier_name, location) values ('RV Enterprises', 'Delhi
 select * from suppliers;
 
 insert into products values (1001, 'Resister', 'It will limit the flow of current', 1);
-insert into products (product_name, discription, supplier_id) values ('Capacitor', 'It will store the electricity', 1), ('Diode', 'It will reverse the flow of current', 2);
+insert into products (product_name, description, supplier_id) values ('Capacitor', 'It will store the electricity', 1), ('Diode', 'It will reverse the flow of current', 2);
 select * from products;
 
 insert into stock values (2001, 1001, 100000);
