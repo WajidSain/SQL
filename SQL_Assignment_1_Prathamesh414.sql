@@ -275,7 +275,7 @@ drop table suppliers;
 create table if not exists suppliers (supplier_id integer primary key auto_increment, supplier_name varchar (40), 
 location varchar (20));
 create table if not exists products (product_id integer primary key auto_increment, product_name varchar (30) not null unique,
-discription varchar (255), supplier_id integer, foreign key (supplier_id) references suppliers (supplier_id)
+description varchar (255), supplier_id integer, foreign key (supplier_id) references suppliers (supplier_id)
 on delete cascade on update cascade);
 select * from products;
 desc products;
